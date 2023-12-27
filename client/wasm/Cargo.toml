@@ -1,0 +1,13 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+edition = "2021"
+
+# cargo install wasm-pack
+# wasm-pack build --target web
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"
